@@ -6,6 +6,15 @@ This application uses a focal stack of images captured at different focus settin
 The application determines the best focused image via the use of an index map, which is an image where each pixel corresponds to an integer that stores the index of the image where that specific pixel is best focused.
 A sum modified laplacian equation is used to determine the focus measure for each pixel in each image in the focal stack. The best is eventually chosen.
 
+Original image: unfocused
+![](/screenshots/original.png "Original image: unfocused")
+Focused on strawberry
+![](/screenshots/strawberry.png "Focused on strawberry")
+Focused on people
+![](/screenshots/people.png "Focused on people")
+Focused on bottle
+![](/screenshots/bottle.png "Focused on bottle")
+
 ##### [Image credits: Chilling on low stairs](http://www.cs.columbia.edu/CAVE/projects/focalsweep/)  
 
 ###### To-do:
